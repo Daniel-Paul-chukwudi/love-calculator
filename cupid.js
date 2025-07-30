@@ -75,7 +75,7 @@ const server=http.createServer((req,res)=>{
             // for (let i=0;i<textresult.length;i++){
             //     input += textresult[i].one
             // }
-            // resultDb.push(results)
+            resultDb.push(results)
             // dont need this again just used .join('')
             // console.log(input);
             
